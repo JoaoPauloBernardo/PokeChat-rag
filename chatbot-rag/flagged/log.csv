@@ -1,0 +1,73 @@
+pergunta,output,flag,username,timestamp
+Quais os stats do Pikachu?,"🧠 Base RAG:
+39. Jigglypuff - Tipos: Normal, Fada
+40. Wigglytuff - Tipos: Normal, Fada
+41. Zubat - Tipos: Venenoso, Voador
+42. Golbat - Tipos: Venenoso, Voador
+43. Oddish - Tipos: Grama, Venenoso
+44. Gloom - Tipos: Grama, Venenoso
+45. Vileplume - Tipos: Grama, Venenoso
+46. Paras - Tipos: Inseto, Grama
+47. Parasect - Tipos: Inseto, Grama
+48. Venonat - Tipos: Inseto, Venenoso
+49. Venomoth - Tipos: Inseto, Venenoso
+26. Raichu - Tipos: Elétrico
+27. Sandshrew - Tipos: Terrestre
+28. Sandslash - Tipos: Terrestre
+29. Nidoran(f) - Tipos: Venenoso
+30. Nidorina - Tipos: Venenoso
+31. Nidoqueen - Tipos: Venenoso, Terrestre
+32. Nidoran(m) - Tipos: Venenoso
+33. Nidorino - Tipos: Venenoso
+34. Nidoking - Tipos: Venenoso, Terrestre
+35. Clefairy - Tipos: Fada
+36. Clefable - Tipos: Fada
+37. Vulpix - Tipos: Fogo
+38. Ninetales - Tipos: Fogo
+39. Jigglypuff - Tipos: Normal, Fada
+40. Wigglytuff - Tipos: Normal, Fada
+
+🔍 Dados adicionais:
+❌ PokéAPI retornou erro 404: Not Found...
+
+📗 pikachu (cache local)
+- Tipos: elétrico
+- HP: None
+- Ataque: None
+- Defesa: None",,,2025-04-26 00:20:38.791373
+Quais os stats do Pikachu?,"🧠 Base RAG:
+39. Jigglypuff - Tipos: Normal, Fada
+40. Wigglytuff - Tipos: Normal, Fada
+41. Zubat - Tipos: Venenoso, Voador
+42. Golbat - Tipos: Venenoso, Voador
+43. Oddish - Tipos: Grama, Venenoso
+44. Gloom - Tipos: Grama, Venenoso
+45. Vileplume - Tipos: Grama, Venenoso
+46. Paras - Tipos: Inseto, Grama
+47. Parasect - Tipos: Inseto, Grama
+48. Venonat - Tipos: Inseto, Venenoso
+49. Venomoth - Tipos: Inseto, Venenoso
+26. Raichu - Tipos: Elétrico
+27. Sandshrew - Tipos: Terrestre
+28. Sandslash - Tipos: Terrestre
+29. Nidoran(f) - Tipos: Venenoso
+30. Nidorina - Tipos: Venenoso
+31. Nidoqueen - Tipos: Venenoso, Terrestre
+32. Nidoran(m) - Tipos: Venenoso
+33. Nidorino - Tipos: Venenoso
+34. Nidoking - Tipos: Venenoso, Terrestre
+35. Clefairy - Tipos: Fada
+36. Clefable - Tipos: Fada
+37. Vulpix - Tipos: Fogo
+38. Ninetales - Tipos: Fogo
+39. Jigglypuff - Tipos: Normal, Fada
+40. Wigglytuff - Tipos: Normal, Fada
+
+🔍 Dados adicionais:
+❌ PokéAPI retornou erro 404: Not Found...
+
+📗 pikachu (cache local)
+- Tipos: elétrico
+- HP: None
+- Ataque: None
+- Defesa: None",,,2025-04-26 00:20:40.626152

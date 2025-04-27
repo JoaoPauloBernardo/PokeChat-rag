@@ -1,0 +1,2202 @@
+[
+  {
+    "id": 1,
+    "nome": "Bulbasaur",
+    "tipos": ["Grama", "Venenoso"],
+    "descricao": "Pokémon Semente que carrega uma planta nas costas desde o nascimento.",
+    "altura": 0.7,
+    "peso": 6.9,
+    "habilidades": ["Grandeza", "Clorofila"],
+    "evolucao": ["Ivysaur", "Venusaur"],
+    "stats": {
+      "hp": 45,
+      "ataque": 49,
+      "defesa": 49,
+      "ataque_especial": 65,
+      "defesa_especial": 65,
+      "velocidade": 45
+    },
+    "fraquezas": ["Fogo", "Psíquico", "Voador", "Gelo"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+  },
+  {
+    "id": 2,
+    "nome": "Ivysaur",
+    "tipos": ["Grama", "Venenoso"],
+    "descricao": "O bulbo em suas costas cresce absorvendo nutrientes.",
+    "altura": 1.0,
+    "peso": 13.0,
+    "habilidades": ["Grandeza", "Clorofila"],
+    "evolucao": ["Venusaur"],
+    "stats": {
+      "hp": 60,
+      "ataque": 62,
+      "defesa": 63,
+      "ataque_especial": 80,
+      "defesa_especial": 80,
+      "velocidade": 60
+    },
+    "fraquezas": ["Fogo", "Psíquico", "Voador", "Gelo"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png"
+  },
+  {
+    "id": 3,
+    "nome": "Venusaur",
+    "tipos": ["Grama", "Venenoso"],
+    "descricao": "A flor em suas costas libera um aroma calmante.",
+    "altura": 2.0,
+    "peso": 100.0,
+    "habilidades": ["Grandeza", "Clorofila"],
+    "evolucao": [],
+    "stats": {
+      "hp": 80,
+      "ataque": 82,
+      "defesa": 83,
+      "ataque_especial": 100,
+      "defesa_especial": 100,
+      "velocidade": 80
+    },
+    "fraquezas": ["Fogo", "Psíquico", "Voador", "Gelo"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png"
+  },
+  {
+    "id": 4,
+    "nome": "Charmander",
+    "tipos": ["Fogo"],
+    "descricao": "A chama em sua cauda mostra a força de sua vida.",
+    "altura": 0.6,
+    "peso": 8.5,
+    "habilidades": ["Chama", "Poder Solar"],
+    "evolucao": ["Charmeleon", "Charizard"],
+    "stats": {
+      "hp": 39,
+      "ataque": 52,
+      "defesa": 43,
+      "ataque_especial": 60,
+      "defesa_especial": 50,
+      "velocidade": 65
+    },
+    "fraquezas": ["Água", "Terrestre", "Pedra"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+  },
+  {
+    "id": 5,
+    "nome": "Charmeleon",
+    "tipos": ["Fogo"],
+    "descricao": "Garras afiadas e natureza agressiva. Procura constantemente por oponentes.",
+    "altura": 1.1,
+    "peso": 19.0,
+    "habilidades": ["Chama", "Poder Solar"],
+    "evolucao": ["Charizard"],
+    "stats": {
+      "hp": 58,
+      "ataque": 64,
+      "defesa": 58,
+      "ataque_especial": 80,
+      "defesa_especial": 65,
+      "velocidade": 80
+    },
+    "fraquezas": ["Água", "Terrestre", "Pedra"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png"
+  },
+  {
+    "id": 6,
+    "nome": "Charizard",
+    "tipos": ["Fogo", "Voador"],
+    "descricao": "Cospe fogo quente o suficiente para derreter pedras. Pode causar incêndios florestais.",
+    "altura": 1.7,
+    "peso": 90.5,
+    "habilidades": ["Chama", "Poder Solar"],
+    "evolucao": [],
+    "stats": {
+      "hp": 78,
+      "ataque": 84,
+      "defesa": 78,
+      "ataque_especial": 109,
+      "defesa_especial": 85,
+      "velocidade": 100
+    },
+    "fraquezas": ["Água", "Elétrico", "Pedra"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+  },
+  {
+    "id": 7,
+    "nome": "Squirtle",
+    "tipos": ["Água"],
+    "descricao": "Retrai seu longo pescoço em sua concha para lançar jatos d'água com força surpreendente.",
+    "altura": 0.5,
+    "peso": 9.0,
+    "habilidades": ["Torrente", "Casco Rígido"],
+    "evolucao": ["Wartortle", "Blastoise"],
+    "stats": {
+      "hp": 44,
+      "ataque": 48,
+      "defesa": 65,
+      "ataque_especial": 50,
+      "defesa_especial": 64,
+      "velocidade": 43
+    },
+    "fraquezas": ["Elétrico", "Grama"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
+  },
+  {
+    "id": 8,
+    "nome": "Wartortle",
+    "tipos": ["Água"],
+    "descricao": "É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito velho.",
+    "altura": 1.0,
+    "peso": 22.5,
+    "habilidades": ["Torrente", "Casco Rígido"],
+    "evolucao": ["Blastoise"],
+    "stats": {
+      "hp": 59,
+      "ataque": 63,
+      "defesa": 80,
+      "ataque_especial": 65,
+      "defesa_especial": 80,
+      "velocidade": 58
+    },
+    "fraquezas": ["Elétrico", "Grama"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png"
+  },
+  {
+    "id": 9,
+    "nome": "Blastoise",
+    "tipos": ["Água"],
+    "descricao": "Esmaga seu inimigo sob seu corpo pesado. Em uma pitada, ele se retirará para dentro de sua concha.",
+    "altura": 1.6,
+    "peso": 85.5,
+    "habilidades": ["Torrente", "Casco Rígido"],
+    "evolucao": [],
+    "stats": {
+      "hp": 79,
+      "ataque": 83,
+      "defesa": 100,
+      "ataque_especial": 85,
+      "defesa_especial": 105,
+      "velocidade": 78
+    },
+    "fraquezas": ["Elétrico", "Grama"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png"
+  },
+  {
+    "id": 10,
+    "nome": "Caterpie",
+    "tipos": ["Inseto"],
+    "descricao": "Seus pés curtos estão equipados com ventosas que lhe permitem escalar sem escorregar.",
+    "altura": 0.3,
+    "peso": 2.9,
+    "habilidades": ["Poeira do Escudo", "Fuga"],
+    "evolucao": ["Metapod", "Butterfree"],
+    "stats": {
+      "hp": 45,
+      "ataque": 30,
+      "defesa": 35,
+      "ataque_especial": 20,
+      "defesa_especial": 20,
+      "velocidade": 45
+    },
+    "fraquezas": ["Fogo", "Voador", "Pedra"],
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png"
+  },
+    {
+      "id": 11,
+      "nome": "metapod",
+      "tipos": ["inseto"],
+      "habilidades": ["troca-peca"],
+      "altura": 7,
+      "peso": 99,
+      "status": {
+        "hp": 50,
+        "ataque": 20,
+        "defesa": 55,
+        "ataque-especial": 25,
+        "defesa-especial": 25,
+        "velocidade": 30
+      }
+    },
+    {
+      "id": 12,
+      "nome": "butterfree",
+      "tipos": ["inseto", "voador"],
+      "habilidades": ["olhos-compostos", "lentes-escuras"],
+      "altura": 11,
+      "peso": 320,
+      "status": {
+        "hp": 60,
+        "ataque": 45,
+        "defesa": 50,
+        "ataque-especial": 90,
+        "defesa-especial": 80,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 13,
+      "nome": "weedle",
+      "tipos": ["inseto", "veneno"],
+      "habilidades": ["poeira-escudo", "fuga"],
+      "altura": 3,
+      "peso": 32,
+      "status": {
+        "hp": 40,
+        "ataque": 35,
+        "defesa": 30,
+        "ataque-especial": 20,
+        "defesa-especial": 20,
+        "velocidade": 50
+      }
+    },
+    {
+      "id": 14,
+      "nome": "kakuna",
+      "tipos": ["inseto", "veneno"],
+      "habilidades": ["troca-peca"],
+      "altura": 6,
+      "peso": 100,
+      "status": {
+        "hp": 45,
+        "ataque": 25,
+        "defesa": 50,
+        "ataque-especial": 25,
+        "defesa-especial": 25,
+        "velocidade": 35
+      }
+    },
+    {
+      "id": 15,
+      "nome": "beedrill",
+      "tipos": ["inseto", "veneno"],
+      "habilidades": ["enxame", "atirador"],
+      "altura": 10,
+      "peso": 295,
+      "status": {
+        "hp": 65,
+        "ataque": 90,
+        "defesa": 40,
+        "ataque-especial": 45,
+        "defesa-especial": 80,
+        "velocidade": 75
+      }
+    },
+    {
+      "id": 16,
+      "nome": "pidgey",
+      "tipos": ["normal", "voador"],
+      "habilidades": ["olho-aguçado", "pés-enredados", "peito-grande"],
+      "altura": 3,
+      "peso": 18,
+      "status": {
+        "hp": 40,
+        "ataque": 45,
+        "defesa": 40,
+        "ataque-especial": 35,
+        "defesa-especial": 35,
+        "velocidade": 56
+      }
+    },
+    {
+      "id": 17,
+      "nome": "pidgeotto",
+      "tipos": ["normal", "voador"],
+      "habilidades": ["olho-aguçado", "pés-enredados", "peito-grande"],
+      "altura": 11,
+      "peso": 300,
+      "status": {
+        "hp": 63,
+        "ataque": 60,
+        "defesa": 55,
+        "ataque-especial": 50,
+        "defesa-especial": 50,
+        "velocidade": 71
+      }
+    },
+    {
+      "id": 18,
+      "nome": "pidgeot",
+      "tipos": ["normal", "voador"],
+      "habilidades": ["olho-aguçado", "pés-enredados", "peito-grande"],
+      "altura": 15,
+      "peso": 395,
+      "status": {
+        "hp": 83,
+        "ataque": 80,
+        "defesa": 75,
+        "ataque-especial": 70,
+        "defesa-especial": 70,
+        "velocidade": 101
+      }
+    },
+    {
+      "id": 19,
+      "nome": "rattata",
+      "tipos": ["normal"],
+      "habilidades": ["fuga", "coragem", "persistência"],
+      "altura": 3,
+      "peso": 35,
+      "status": {
+        "hp": 30,
+        "ataque": 56,
+        "defesa": 35,
+        "ataque-especial": 25,
+        "defesa-especial": 35,
+        "velocidade": 72
+      }
+    },
+    {
+      "id": 20,
+      "nome": "raticate",
+      "tipos": ["normal"],
+      "habilidades": ["fuga", "coragem", "persistência"],
+      "altura": 7,
+      "peso": 185,
+      "status": {
+        "hp": 55,
+        "ataque": 81,
+        "defesa": 60,
+        "ataque-especial": 50,
+        "defesa-especial": 70,
+        "velocidade": 97
+      }
+    },
+    {
+      "id": 21,
+      "nome": "spearow",
+      "tipos": ["normal", "voador"],
+      "habilidades": ["olho-aguçado", "esforçado"],
+      "altura": 3,
+      "peso": 20,
+      "status": {
+        "hp": 40,
+        "ataque": 60,
+        "defesa": 30,
+        "ataque-especial": 31,
+        "defesa-especial": 31,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 22,
+      "nome": "fearow",
+      "tipos": ["normal", "voador"],
+      "habilidades": ["olho-aguçado", "esforçado"],
+      "altura": 12,
+      "peso": 380,
+      "status": {
+        "hp": 65,
+        "ataque": 90,
+        "defesa": 65,
+        "ataque-especial": 61,
+        "defesa-especial": 61,
+        "velocidade": 100
+      }
+    },
+    {
+      "id": 23,
+      "nome": "ekans",
+      "tipos": ["veneno"],
+      "habilidades": ["intimidação", "pele-derramada", "medroso"],
+      "altura": 20,
+      "peso": 69,
+      "status": {
+        "hp": 35,
+        "ataque": 60,
+        "defesa": 44,
+        "ataque-especial": 40,
+        "defesa-especial": 54,
+        "velocidade": 55
+      }
+    },
+    {
+      "id": 24,
+      "nome": "arbok",
+      "tipos": ["veneno"],
+      "habilidades": ["intimidação", "pele-derramada", "medroso"],
+      "altura": 35,
+      "peso": 650,
+      "status": {
+        "hp": 60,
+        "ataque": 95,
+        "defesa": 69,
+        "ataque-especial": 65,
+        "defesa-especial": 79,
+        "velocidade": 80
+      }
+    },
+    {
+      "id": 25,
+      "nome": "pikachu",
+      "tipos": ["elétrico"],
+      "habilidades": ["estático", "para-raios"],
+      "altura": 4,
+      "peso": 60,
+      "status": {
+        "hp": 35,
+        "ataque": 55,
+        "defesa": 40,
+        "ataque-especial": 50,
+        "defesa-especial": 50,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 26,
+      "nome": "raichu",
+      "tipos": ["elétrico"],
+      "habilidades": ["estático", "para-raios"],
+      "altura": 8,
+      "peso": 300,
+      "status": {
+        "hp": 60,
+        "ataque": 90,
+        "defesa": 55,
+        "ataque-especial": 90,
+        "defesa-especial": 80,
+        "velocidade": 110
+      }
+    },
+    {
+      "id": 27,
+      "nome": "sandshrew",
+      "tipos": ["terra"],
+      "habilidades": ["areia-vagarosa", "pele-areia"],
+      "altura": 6,
+      "peso": 120,
+      "status": {
+        "hp": 50,
+        "ataque": 75,
+        "defesa": 85,
+        "ataque-especial": 20,
+        "defesa-especial": 30,
+        "velocidade": 40
+      }
+    },
+    {
+      "id": 28,
+      "nome": "sandslash",
+      "tipos": ["terra"],
+      "habilidades": ["areia-vagarosa", "pele-areia"],
+      "altura": 10,
+      "peso": 295,
+      "status": {
+        "hp": 75,
+        "ataque": 100,
+        "defesa": 110,
+        "ataque-especial": 45,
+        "defesa-especial": 55,
+        "velocidade": 65
+      }
+    },
+    {
+      "id": 29,
+      "nome": "nidoran-f",
+      "tipos": ["veneno"],
+      "habilidades": ["ponto-veneno", "rivalidade", "tenacidade"],
+      "altura": 4,
+      "peso": 70,
+      "status": {
+        "hp": 55,
+        "ataque": 47,
+        "defesa": 52,
+        "ataque-especial": 40,
+        "defesa-especial": 40,
+        "velocidade": 41
+      }
+    },
+    {
+      "id": 30,
+      "nome": "nidorina",
+      "tipos": ["veneno"],
+      "habilidades": ["ponto-veneno", "rivalidade", "tenacidade"],
+      "altura": 8,
+      "peso": 200,
+      "status": {
+        "hp": 70,
+        "ataque": 62,
+        "defesa": 67,
+        "ataque-especial": 55,
+        "defesa-especial": 55,
+        "velocidade": 56
+      }
+    },
+    {
+      "id": 31,
+      "nome": "nidoqueen",
+      "tipos": ["veneno", "terra"],
+      "habilidades": ["ponto-veneno", "rivalidade", "força-pura"],
+      "altura": 13,
+      "peso": 600,
+      "status": {
+        "hp": 90,
+        "ataque": 92,
+        "defesa": 87,
+        "ataque-especial": 75,
+        "defesa-especial": 85,
+        "velocidade": 76
+      }
+    },
+    {
+      "id": 32,
+      "nome": "nidoran-m",
+      "tipos": ["veneno"],
+      "habilidades": ["ponto-veneno", "rivalidade", "tenacidade"],
+      "altura": 5,
+      "peso": 90,
+      "status": {
+        "hp": 46,
+        "ataque": 57,
+        "defesa": 40,
+        "ataque-especial": 40,
+        "defesa-especial": 40,
+        "velocidade": 50
+      }
+    },
+    {
+      "id": 33,
+      "nome": "nidorino",
+      "tipos": ["veneno"],
+      "habilidades": ["ponto-veneno", "rivalidade", "tenacidade"],
+      "altura": 9,
+      "peso": 195,
+      "status": {
+        "hp": 61,
+        "ataque": 72,
+        "defesa": 57,
+        "ataque-especial": 55,
+        "defesa-especial": 55,
+        "velocidade": 65
+      }
+    },
+    {
+      "id": 34,
+      "nome": "nidoking",
+      "tipos": ["veneno", "terra"],
+      "habilidades": ["ponto-veneno", "rivalidade", "força-pura"],
+      "altura": 14,
+      "peso": 620,
+      "status": {
+        "hp": 81,
+        "ataque": 102,
+        "defesa": 77,
+        "ataque-especial": 85,
+        "defesa-especial": 75,
+        "velocidade": 85
+      }
+    },
+    {
+      "id": 35,
+      "nome": "clefairy",
+      "tipos": ["fada"],
+      "habilidades": ["adorável", "manto-mágico", "amizade"],
+      "altura": 6,
+      "peso": 75,
+      "status": {
+        "hp": 70,
+        "ataque": 45,
+        "defesa": 48,
+        "ataque-especial": 60,
+        "defesa-especial": 65,
+        "velocidade": 35
+      }
+    },
+    {
+      "id": 36,
+      "nome": "clefable",
+      "tipos": ["fada"],
+      "habilidades": ["adorável", "manto-mágico", "amizade"],
+      "altura": 13,
+      "peso": 400,
+      "status": {
+        "hp": 95,
+        "ataque": 70,
+        "defesa": 73,
+        "ataque-especial": 95,
+        "defesa-especial": 90,
+        "velocidade": 60
+      }
+    },
+    {
+      "id": 37,
+      "nome": "vulpix",
+      "tipos": ["fogo"],
+      "habilidades": ["absorver-fogo", "seca"],
+      "altura": 6,
+      "peso": 99,
+      "status": {
+        "hp": 38,
+        "ataque": 41,
+        "defesa": 40,
+        "ataque-especial": 50,
+        "defesa-especial": 65,
+        "velocidade": 65
+      }
+    },
+    {
+      "id": 38,
+      "nome": "ninetales",
+      "tipos": ["fogo"],
+      "habilidades": ["absorver-fogo", "seca"],
+      "altura": 11,
+      "peso": 199,
+      "status": {
+        "hp": 73,
+        "ataque": 76,
+        "defesa": 75,
+        "ataque-especial": 81,
+        "defesa-especial": 100,
+        "velocidade": 100
+      }
+    },
+    {
+      "id": 39,
+      "nome": "jigglypuff",
+      "tipos": ["normal", "fada"],
+      "habilidades": ["adorável", "competitivo", "amizade"],
+      "altura": 5,
+      "peso": 55,
+      "status": {
+        "hp": 115,
+        "ataque": 45,
+        "defesa": 20,
+        "ataque-especial": 45,
+        "defesa-especial": 25,
+        "velocidade": 20
+      }
+    },
+    {
+      "id": 40,
+      "nome": "wigglytuff",
+      "tipos": ["normal", "fada"],
+      "habilidades": ["adorável", "competitivo", "amizade"],
+      "altura": 10,
+      "peso": 120,
+      "status": {
+        "hp": 140,
+        "ataque": 70,
+        "defesa": 45,
+        "ataque-especial": 85,
+        "defesa-especial": 50,
+        "velocidade": 45
+      }
+    },
+    {
+      "id": 41,
+      "nome": "zubat",
+      "tipos": ["veneno", "voador"],
+      "habilidades": ["foco-interno", "infiltração"],
+      "altura": 8,
+      "peso": 75,
+      "status": {
+        "hp": 40,
+        "ataque": 45,
+        "defesa": 35,
+        "ataque-especial": 30,
+        "defesa-especial": 40,
+        "velocidade": 55
+      }
+    },
+    {
+      "id": 42,
+      "nome": "golbat",
+      "tipos": ["veneno", "voador"],
+      "habilidades": ["foco-interno", "infiltração"],
+      "altura": 16,
+      "peso": 550,
+      "status": {
+        "hp": 75,
+        "ataque": 80,
+        "defesa": 70,
+        "ataque-especial": 65,
+        "defesa-especial": 75,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 43,
+      "nome": "oddish",
+      "tipos": ["planta", "veneno"],
+      "habilidades": ["clorofila", "fuga"],
+      "altura": 5,
+      "peso": 54,
+      "status": {
+        "hp": 45,
+        "ataque": 50,
+        "defesa": 55,
+        "ataque-especial": 75,
+        "defesa-especial": 65,
+        "velocidade": 30
+      }
+    },
+    {
+      "id": 44,
+      "nome": "gloom",
+      "tipos": ["planta", "veneno"],
+      "habilidades": ["clorofila", "fedor"],
+      "altura": 8,
+      "peso": 86,
+      "status": {
+        "hp": 60,
+        "ataque": 65,
+        "defesa": 70,
+        "ataque-especial": 85,
+        "defesa-especial": 75,
+        "velocidade": 40
+      }
+    },
+    {
+      "id": 45,
+      "nome": "vileplume",
+      "tipos": ["planta", "veneno"],
+      "habilidades": ["clorofila", "efeito-espora"],
+      "altura": 12,
+      "peso": 186,
+      "status": {
+        "hp": 75,
+        "ataque": 80,
+        "defesa": 85,
+        "ataque-especial": 110,
+        "defesa-especial": 90,
+        "velocidade": 50
+      }
+    },
+    {
+      "id": 46,
+      "nome": "paras",
+      "tipos": ["inseto", "planta"],
+      "habilidades": ["esporocarpo", "pele-seca", "humidade"],
+      "altura": 3,
+      "peso": 54,
+      "status": {
+        "hp": 35,
+        "ataque": 70,
+        "defesa": 55,
+        "ataque-especial": 45,
+        "defesa-especial": 55,
+        "velocidade": 25
+      }
+    },
+    {
+      "id": 47,
+      "nome": "parasect",
+      "tipos": ["inseto", "planta"],
+      "habilidades": ["esporocarpo", "pele-seca", "humidade"],
+      "altura": 10,
+      "peso": 295,
+      "status": {
+        "hp": 60,
+        "ataque": 95,
+        "defesa": 80,
+        "ataque-especial": 60,
+        "defesa-especial": 80,
+        "velocidade": 30
+      }
+    },
+    {
+      "id": 48,
+      "nome": "venonat",
+      "tipos": ["inseto", "veneno"],
+      "habilidades": ["olhos-compostos", "fumaça-tinta", "fuga"],
+      "altura": 10,
+      "peso": 300,
+      "status": {
+        "hp": 60,
+        "ataque": 55,
+        "defesa": 50,
+        "ataque-especial": 40,
+        "defesa-especial": 55,
+        "velocidade": 45
+      }
+    },
+    {
+      "id": 49,
+      "nome": "venomoth",
+      "tipos": ["inseto", "veneno"],
+      "habilidades": ["escama-pó", "fumaça-tinta", "milagre-pó"],
+      "altura": 15,
+      "peso": 125,
+      "status": {
+        "hp": 70,
+        "ataque": 65,
+        "defesa": 60,
+        "ataque-especial": 90,
+        "defesa-especial": 75,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 50,
+      "nome": "diglett",
+      "tipos": ["terra"],
+      "habilidades": ["areia-vagarosa", "armadilha-arena", "força-arena"],
+      "altura": 2,
+      "peso": 8,
+      "status": {
+        "hp": 10,
+        "ataque": 55,
+        "defesa": 25,
+        "ataque-especial": 35,
+        "defesa-especial": 45,
+        "velocidade": 95
+      }
+    },
+    {
+      "id": 51,
+      "nome": "dugtrio",
+      "tipos": ["terra"],
+      "habilidades": ["areia-vagarosa", "armadilha-arena", "força-arena"],
+      "altura": 7,
+      "peso": 333,
+      "status": {
+        "hp": 35,
+        "ataque": 100,
+        "defesa": 50,
+        "ataque-especial": 50,
+        "defesa-especial": 70,
+        "velocidade": 120
+      }
+    },
+    {
+      "id": 52,
+      "nome": "meowth",
+      "tipos": ["normal"],
+      "habilidades": ["apanhar", "tecnico", "medroso"],
+      "altura": 4,
+      "peso": 42,
+      "status": {
+        "hp": 40,
+        "ataque": 45,
+        "defesa": 35,
+        "ataque-especial": 40,
+        "defesa-especial": 40,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 53,
+      "nome": "persian",
+      "tipos": ["normal"],
+      "habilidades": ["flexibilidade", "tecnico", "medroso"],
+      "altura": 10,
+      "peso": 320,
+      "status": {
+        "hp": 65,
+        "ataque": 70,
+        "defesa": 60,
+        "ataque-especial": 65,
+        "defesa-especial": 65,
+        "velocidade": 115
+      }
+    },
+    {
+      "id": 54,
+      "nome": "psyduck",
+      "tipos": ["água"],
+      "habilidades": ["humidade", "foco-interno", "ritmo-próprio"],
+      "altura": 8,
+      "peso": 196,
+      "status": {
+        "hp": 50,
+        "ataque": 52,
+        "defesa": 48,
+        "ataque-especial": 65,
+        "defesa-especial": 50,
+        "velocidade": 55
+      }
+    },
+    {
+      "id": 55,
+      "nome": "golduck",
+      "tipos": ["água"],
+      "habilidades": ["humidade", "foco-interno", "ritmo-próprio"],
+      "altura": 17,
+      "peso": 766,
+      "status": {
+        "hp": 80,
+        "ataque": 82,
+        "defesa": 78,
+        "ataque-especial": 95,
+        "defesa-especial": 80,
+        "velocidade": 85
+      }
+    },
+    {
+      "id": 56,
+      "nome": "mankey",
+      "tipos": ["lutador"],
+      "habilidades": ["espírito-vital", "fúria", "pressão"],
+      "altura": 5,
+      "peso": 280,
+      "status": {
+        "hp": 40,
+        "ataque": 80,
+        "defesa": 35,
+        "ataque-especial": 35,
+        "defesa-especial": 45,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 57,
+      "nome": "primeape",
+      "tipos": ["lutador"],
+      "habilidades": ["espírito-vital", "fúria", "pressão"],
+      "altura": 10,
+      "peso": 320,
+      "status": {
+        "hp": 65,
+        "ataque": 105,
+        "defesa": 60,
+        "ataque-especial": 60,
+        "defesa-especial": 70,
+        "velocidade": 95
+      }
+    },
+    {
+      "id": 58,
+      "nome": "growlithe",
+      "tipos": ["fogo"],
+      "habilidades": ["intimidação", "absorver-fogo", "justiça"],
+      "altura": 7,
+      "peso": 190,
+      "status": {
+        "hp": 55,
+        "ataque": 70,
+        "defesa": 45,
+        "ataque-especial": 70,
+        "defesa-especial": 50,
+        "velocidade": 60
+      }
+    },
+    {
+      "id": 59,
+      "nome": "arcanine",
+      "tipos": ["fogo"],
+      "habilidades": ["intimidação", "absorver-fogo", "justiça"],
+      "altura": 19,
+      "peso": 1550,
+      "status": {
+        "hp": 90,
+        "ataque": 110,
+        "defesa": 80,
+        "ataque-especial": 100,
+        "defesa-especial": 80,
+        "velocidade": 95
+      }
+    },
+    {
+      "id": 60,
+      "nome": "poliwag",
+      "tipos": ["água"],
+      "habilidades": ["absorver-água", "humidade", "nadador-veloz"],
+      "altura": 6,
+      "peso": 124,
+      "status": {
+        "hp": 40,
+        "ataque": 50,
+        "defesa": 40,
+        "ataque-especial": 40,
+        "defesa-especial": 40,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 61,
+      "nome": "poliwhirl",
+      "tipos": ["água"],
+      "habilidades": ["absorver-água", "humidade", "nadador-veloz"],
+      "altura": 10,
+      "peso": 200,
+      "status": {
+        "hp": 65,
+        "ataque": 65,
+        "defesa": 65,
+        "ataque-especial": 50,
+        "defesa-especial": 50,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 62,
+      "nome": "poliwrath",
+      "tipos": ["água", "lutador"],
+      "habilidades": ["absorver-água", "humidade", "nadador-veloz"],
+      "altura": 13,
+      "peso": 540,
+      "status": {
+        "hp": 90,
+        "ataque": 95,
+        "defesa": 95,
+        "ataque-especial": 70,
+        "defesa-especial": 90,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 63,
+      "nome": "abra",
+      "tipos": ["psíquico"],
+      "habilidades": ["sincronia", "foco-interno", "milagre-pó"],
+      "altura": 9,
+      "peso": 195,
+      "status": {
+        "hp": 25,
+        "ataque": 20,
+        "defesa": 15,
+        "ataque-especial": 105,
+        "defesa-especial": 55,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 64,
+      "nome": "kadabra",
+      "tipos": ["psíquico"],
+      "habilidades": ["sincronia", "foco-interno", "milagre-pó"],
+      "altura": 13,
+      "peso": 565,
+      "status": {
+        "hp": 40,
+        "ataque": 35,
+        "defesa": 30,
+        "ataque-especial": 120,
+        "defesa-especial": 70,
+        "velocidade": 105
+      }
+    },
+    {
+      "id": 65,
+      "nome": "alakazam",
+      "tipos": ["psíquico"],
+      "habilidades": ["sincronia", "foco-interno", "milagre-pó"],
+      "altura": 15,
+      "peso": 480,
+      "status": {
+        "hp": 55,
+        "ataque": 50,
+        "defesa": 45,
+        "ataque-especial": 135,
+        "defesa-especial": 95,
+        "velocidade": 120
+      }
+    },
+    {
+      "id": 66,
+      "nome": "machop",
+      "tipos": ["lutador"],
+      "habilidades": ["espírito-vital", "força-bruta", "pressão"],
+      "altura": 8,
+      "peso": 195,
+      "status": {
+        "hp": 70,
+        "ataque": 80,
+        "defesa": 50,
+        "ataque-especial": 35,
+        "defesa-especial": 35,
+        "velocidade": 35
+      }
+    },
+    {
+      "id": 67,
+      "nome": "machoke",
+      "tipos": ["lutador"],
+      "habilidades": ["espírito-vital", "força-bruta", "pressão"],
+      "altura": 15,
+      "peso": 705,
+      "status": {
+        "hp": 80,
+        "ataque": 100,
+        "defesa": 70,
+        "ataque-especial": 50,
+        "defesa-especial": 60,
+        "velocidade": 45
+      }
+    },
+    {
+      "id": 68,
+      "nome": "machamp",
+      "tipos": ["lutador"],
+      "habilidades": ["espírito-vital", "força-bruta", "pressão"],
+      "altura": 16,
+      "peso": 1300,
+      "status": {
+        "hp": 90,
+        "ataque": 130,
+        "defesa": 80,
+        "ataque-especial": 65,
+        "defesa-especial": 85,
+        "velocidade": 55
+      }
+    },
+    {
+      "id": 69,
+      "nome": "bellsprout",
+      "tipos": ["planta", "veneno"],
+      "habilidades": ["clorofila", "gluttono"],
+      "altura": 7,
+      "peso": 40,
+      "status": {
+        "hp": 50,
+        "ataque": 75,
+        "defesa": 35,
+        "ataque-especial": 70,
+        "defesa-especial": 30,
+        "velocidade": 40
+      }
+    },
+    {
+      "id": 70,
+      "nome": "weepinbell",
+      "tipos": ["planta", "veneno"],
+      "habilidades": ["clorofila", "gluttono"],
+      "altura": 10,
+      "peso": 64,
+      "status": {
+        "hp": 65,
+        "ataque": 90,
+        "defesa": 50,
+        "ataque-especial": 85,
+        "defesa-especial": 45,
+        "velocidade": 55
+      }
+    },
+    {
+      "id": 71,
+      "nome": "victreebel",
+      "tipos": ["planta", "veneno"],
+      "habilidades": ["clorofila", "gluttono"],
+      "altura": 17,
+      "peso": 155,
+      "status": {
+        "hp": 80,
+        "ataque": 105,
+        "defesa": 65,
+        "ataque-especial": 100,
+        "defesa-especial": 70,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 72,
+      "nome": "tentacool",
+      "tipos": ["água", "veneno"],
+      "habilidades": ["corpo-clear", "escudo-líquido", "absorver-água"],
+      "altura": 9,
+      "peso": 455,
+      "status": {
+        "hp": 40,
+        "ataque": 40,
+        "defesa": 35,
+        "ataque-especial": 50,
+        "defesa-especial": 100,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 73,
+      "nome": "tentacruel",
+      "tipos": ["água", "veneno"],
+      "habilidades": ["corpo-clear", "escudo-líquido", "absorver-água"],
+      "altura": 16,
+      "peso": 550,
+      "status": {
+        "hp": 80,
+        "ataque": 70,
+        "defesa": 65,
+        "ataque-especial": 80,
+        "defesa-especial": 120,
+        "velocidade": 100
+      }
+    },
+    {
+      "id": 74,
+      "nome": "geodude",
+      "tipos": ["pedra", "terra"],
+      "habilidades": ["cabeça-rocha", "corpo-forte", "areia-vagarosa"],
+      "altura": 4,
+      "peso": 200,
+      "status": {
+        "hp": 40,
+        "ataque": 80,
+        "defesa": 100,
+        "ataque-especial": 30,
+        "defesa-especial": 30,
+        "velocidade": 20
+      }
+    },
+    {
+      "id": 75,
+      "nome": "graveler",
+      "tipos": ["pedra", "terra"],
+      "habilidades": ["cabeça-rocha", "corpo-forte", "areia-vagarosa"],
+      "altura": 10,
+      "peso": 1050,
+      "status": {
+        "hp": 55,
+        "ataque": 95,
+        "defesa": 115,
+        "ataque-especial": 45,
+        "defesa-especial": 45,
+        "velocidade": 35
+      }
+    },
+    {
+      "id": 76,
+      "nome": "golem",
+      "tipos": ["pedra", "terra"],
+      "habilidades": ["cabeça-rocha", "corpo-forte", "areia-vagarosa"],
+      "altura": 14,
+      "peso": 3000,
+      "status": {
+        "hp": 80,
+        "ataque": 120,
+        "defesa": 130,
+        "ataque-especial": 55,
+        "defesa-especial": 65,
+        "velocidade": 45
+      }
+    },
+    {
+      "id": 77,
+      "nome": "ponyta",
+      "tipos": ["fogo"],
+      "habilidades": ["fuga", "absorver-fogo", "chama-corpo"],
+      "altura": 10,
+      "peso": 300,
+      "status": {
+        "hp": 50,
+        "ataque": 85,
+        "defesa": 55,
+        "ataque-especial": 65,
+        "defesa-especial": 65,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 78,
+      "nome": "rapidash",
+      "tipos": ["fogo"],
+      "habilidades": ["fuga", "absorver-fogo", "chama-corpo"],
+      "altura": 17,
+      "peso": 950,
+      "status": {
+        "hp": 65,
+        "ataque": 100,
+        "defesa": 70,
+        "ataque-especial": 80,
+        "defesa-especial": 80,
+        "velocidade": 105
+      }
+    },
+    {
+      "id": 79,
+      "nome": "slowpoke",
+      "tipos": ["água", "psíquico"],
+      "habilidades": ["desatenção", "ritmo-próprio", "regeneração"],
+      "altura": 12,
+      "peso": 360,
+      "status": {
+        "hp": 90,
+        "ataque": 65,
+        "defesa": 65,
+        "ataque-especial": 40,
+        "defesa-especial": 40,
+        "velocidade": 15
+      }
+    },
+    {
+      "id": 80,
+      "nome": "slowbro",
+      "tipos": ["água", "psíquico"],
+      "habilidades": ["desatenção", "ritmo-próprio", "regeneração"],
+      "altura": 16,
+      "peso": 785,
+      "status": {
+        "hp": 95,
+        "ataque": 75,
+        "defesa": 110,
+        "ataque-especial": 100,
+        "defesa-especial": 80,
+        "velocidade": 30
+      }
+    },
+    {
+      "id": 81,
+      "nome": "magnemite",
+      "tipos": ["elétrico", "aço"],
+      "habilidades": ["ímã", "corpo-forte", "metalurgia"],
+      "altura": 3,
+      "peso": 60,
+      "status": {
+        "hp": 25,
+        "ataque": 35,
+        "defesa": 70,
+        "ataque-especial": 95,
+        "defesa-especial": 55,
+        "velocidade": 45
+      }
+    },
+    {
+      "id": 82,
+      "nome": "magneton",
+      "tipos": ["elétrico", "aço"],
+      "habilidades": ["ímã", "corpo-forte", "metalurgia"],
+      "altura": 10,
+      "peso": 600,
+      "status": {
+        "hp": 50,
+        "ataque": 60,
+        "defesa": 95,
+        "ataque-especial": 120,
+        "defesa-especial": 70,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 83,
+      "nome": "farfetchd",
+      "tipos": ["normal", "voador"],
+      "habilidades": ["olho-aguçado", "foco-interno", "audácia"],
+      "altura": 8,
+      "peso": 150,
+      "status": {
+        "hp": 52,
+        "ataque": 90,
+        "defesa": 55,
+        "ataque-especial": 58,
+        "defesa-especial": 62,
+        "velocidade": 60
+      }
+    },
+    {
+      "id": 84,
+      "nome": "doduo",
+      "tipos": ["normal", "voador"],
+      "habilidades": ["fuga", "esforçado", "temperatura"],
+      "altura": 14,
+      "peso": 392,
+      "status": {
+        "hp": 35,
+        "ataque": 85,
+        "defesa": 45,
+        "ataque-especial": 35,
+        "defesa-especial": 35,
+        "velocidade": 75
+      }
+    },
+    {
+      "id": 85,
+      "nome": "dodrio",
+      "tipos": ["normal", "voador"],
+      "habilidades": ["fuga", "esforçado", "temperatura"],
+      "altura": 18,
+      "peso": 852,
+      "status": {
+        "hp": 60,
+        "ataque": 110,
+        "defesa": 70,
+        "ataque-especial": 60,
+        "defesa-especial": 60,
+        "velocidade": 110
+      }
+    },
+    {
+      "id": 86,
+      "nome": "seel",
+      "tipos": ["água"],
+      "habilidades": ["gordura-isolante", "hidratação", "corpo-gélido"],
+      "altura": 11,
+      "peso": 900,
+      "status": {
+        "hp": 65,
+        "ataque": 45,
+        "defesa": 55,
+        "ataque-especial": 45,
+        "defesa-especial": 70,
+        "velocidade": 45
+      }
+    },
+    {
+      "id": 87,
+      "nome": "dewgong",
+      "tipos": ["água", "gelo"],
+      "habilidades": ["gordura-isolante", "hidratação", "corpo-gélido"],
+      "altura": 17,
+      "peso": 1200,
+      "status": {
+        "hp": 90,
+        "ataque": 70,
+        "defesa": 80,
+        "ataque-especial": 70,
+        "defesa-especial": 95,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 88,
+      "nome": "grimer",
+      "tipos": ["veneno"],
+      "habilidades": ["fedor", "viscosidade", "poder-toxina"],
+      "altura": 9,
+      "peso": 300,
+      "status": {
+        "hp": 80,
+        "ataque": 80,
+        "defesa": 50,
+        "ataque-especial": 40,
+        "defesa-especial": 50,
+        "velocidade": 25
+      }
+    },
+    {
+      "id": 89,
+      "nome": "muk",
+      "tipos": ["veneno"],
+      "habilidades": ["fedor", "viscosidade", "poder-toxina"],
+      "altura": 12,
+      "peso": 300,
+      "status": {
+        "hp": 105,
+        "ataque": 105,
+        "defesa": 75,
+        "ataque-especial": 65,
+        "defesa-especial": 100,
+        "velocidade": 50
+      }
+    },
+    {
+      "id": 90,
+      "nome": "shellder",
+      "tipos": ["água"],
+      "habilidades": ["concha-armadura", "habilidade-super", "pele-água"],
+      "altura": 3,
+      "peso": 40,
+      "status": {
+        "hp": 30,
+        "ataque": 65,
+        "defesa": 100,
+        "ataque-especial": 45,
+        "defesa-especial": 25,
+        "velocidade": 40
+      }
+    },
+    {
+      "id": 91,
+      "nome": "cloyster",
+      "tipos": ["água", "gelo"],
+      "habilidades": ["concha-armadura", "habilidade-super", "explosão-de-espinhos"],
+      "altura": 15,
+      "peso": 1325,
+      "status": {
+        "hp": 50,
+        "ataque": 95,
+        "defesa": 180,
+        "ataque-especial": 85,
+        "defesa-especial": 45,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 92,
+      "nome": "gastly",
+      "tipos": ["fantasma", "veneno"],
+      "habilidades": ["levitação"],
+      "altura": 13,
+      "peso": 1,
+      "status": {
+        "hp": 30,
+        "ataque": 35,
+        "defesa": 30,
+        "ataque-especial": 100,
+        "defesa-especial": 35,
+        "velocidade": 80
+      }
+    },
+    {
+      "id": 93,
+      "nome": "haunter",
+      "tipos": ["fantasma", "veneno"],
+      "habilidades": ["levitação"],
+      "altura": 16,
+      "peso": 1,
+      "status": {
+        "hp": 45,
+        "ataque": 50,
+        "defesa": 45,
+        "ataque-especial": 115,
+        "defesa-especial": 55,
+        "velocidade": 95
+      }
+    },
+    {
+      "id": 94,
+      "nome": "gengar",
+      "tipos": ["fantasma", "veneno"],
+      "habilidades": ["levitação"],
+      "altura": 15,
+      "peso": 405,
+      "status": {
+        "hp": 60,
+        "ataque": 65,
+        "defesa": 60,
+        "ataque-especial": 130,
+        "defesa-especial": 75,
+        "velocidade": 110
+      }
+    },
+    {
+      "id": 95,
+      "nome": "onix",
+      "tipos": ["pedra", "terra"],
+      "habilidades": ["cabeça-rocha", "corpo-forte", "areia-vagarosa"],
+      "altura": 88,
+      "peso": 2100,
+      "status": {
+        "hp": 35,
+        "ataque": 45,
+        "defesa": 160,
+        "ataque-especial": 30,
+        "defesa-especial": 45,
+        "velocidade": 70
+      }
+    },
+    {
+      "id": 96,
+      "nome": "drowzee",
+      "tipos": ["psíquico"],
+      "habilidades": ["insônia", "premonição", "sentido-alerta"],
+      "altura": 10,
+      "peso": 324,
+      "status": {
+        "hp": 60,
+        "ataque": 48,
+        "defesa": 45,
+        "ataque-especial": 43,
+        "defesa-especial": 90,
+        "velocidade": 42
+      }
+    },
+    {
+      "id": 97,
+      "nome": "hypno",
+      "tipos": ["psíquico"],
+      "habilidades": ["insônia", "premonição", "sentido-alerta"],
+      "altura": 16,
+      "peso": 756,
+      "status": {
+        "hp": 85,
+        "ataque": 73,
+        "defesa": 70,
+        "ataque-especial": 73,
+        "defesa-especial": 115,
+        "velocidade": 67
+      }
+    },
+    {
+      "id": 98,
+      "nome": "krabby",
+      "tipos": ["água"],
+      "habilidades": ["hipercortador", "casca-tanha", "força-arena"],
+      "altura": 4,
+      "peso": 65,
+      "status": {
+        "hp": 30,
+        "ataque": 105,
+        "defesa": 90,
+        "ataque-especial": 25,
+        "defesa-especial": 25,
+        "velocidade": 50
+      }
+    },
+    {
+      "id": 99,
+      "nome": "kingler",
+      "tipos": ["água"],
+      "habilidades": ["hipercortador", "casca-tanha", "força-arena"],
+      "altura": 13,
+      "peso": 600,
+      "status": {
+        "hp": 55,
+        "ataque": 130,
+        "defesa": 115,
+        "ataque-especial": 50,
+        "defesa-especial": 50,
+        "velocidade": 75
+      }
+    },
+    {
+      "id": 100,
+      "nome": "voltorb",
+      "tipos": ["elétrico"],
+      "habilidades": ["isolante", "estático", "explosão-de-choque"],
+      "altura": 5,
+      "peso": 104,
+      "status": {
+        "hp": 40,
+        "ataque": 30,
+        "defesa": 50,
+        "ataque-especial": 55,
+        "defesa-especial": 55,
+        "velocidade": 100
+      }
+    },
+    {
+      "id": 101,
+      "nome": "electrode",
+      "tipos": ["elétrico"],
+      "habilidades": ["isolante", "estático", "explosão-de-choque"],
+      "altura": 12,
+      "peso": 666,
+      "status": {
+        "hp": 60,
+        "ataque": 50,
+        "defesa": 70,
+        "ataque-especial": 80,
+        "defesa-especial": 80,
+        "velocidade": 150
+      }
+    },
+    {
+      "id": 102,
+      "nome": "exeggcute",
+      "tipos": ["planta", "psíquico"],
+      "habilidades": ["clorofila", "colheita"],
+      "altura": 4,
+      "peso": 25,
+      "status": {
+        "hp": 60,
+        "ataque": 40,
+        "defesa": 80,
+        "ataque-especial": 60,
+        "defesa-especial": 45,
+        "velocidade": 40
+      }
+    },
+    {
+      "id": 103,
+      "nome": "exeggutor",
+      "tipos": ["planta", "psíquico"],
+      "habilidades": ["clorofila", "colheita"],
+      "altura": 20,
+      "peso": 1200,
+      "status": {
+        "hp": 95,
+        "ataque": 95,
+        "defesa": 85,
+        "ataque-especial": 125,
+        "defesa-especial": 75,
+        "velocidade": 55
+      }
+    },
+    {
+      "id": 104,
+      "nome": "cubone",
+      "tipos": ["terra"],
+      "habilidades": ["cabeça-rocha", "corpo-forte", "batalha-armadura"],
+      "altura": 4,
+      "peso": 65,
+      "status": {
+        "hp": 50,
+        "ataque": 50,
+        "defesa": 95,
+        "ataque-especial": 40,
+        "defesa-especial": 50,
+        "velocidade": 35
+      }
+    },
+    {
+      "id": 105,
+      "nome": "marowak",
+      "tipos": ["terra"],
+      "habilidades": ["cabeça-rocha", "corpo-forte", "batalha-armadura"],
+      "altura": 10,
+      "peso": 450,
+      "status": {
+        "hp": 60,
+        "ataque": 80,
+        "defesa": 110,
+        "ataque-especial": 50,
+        "defesa-especial": 80,
+        "velocidade": 45
+      }
+    },
+    {
+      "id": 106,
+      "nome": "hitmonlee",
+      "tipos": ["lutador"],
+      "habilidades": ["flexibilidade", "chute-firme", "espírito-vital"],
+      "altura": 15,
+      "peso": 498,
+      "status": {
+        "hp": 50,
+        "ataque": 120,
+        "defesa": 53,
+        "ataque-especial": 35,
+        "defesa-especial": 110,
+        "velocidade": 87
+      }
+    },
+    {
+      "id": 107,
+      "nome": "hitmonchan",
+      "tipos": ["lutador"],
+      "habilidades": ["olho-aguçado", "punho-de-ferro", "espírito-vital"],
+      "altura": 14,
+      "peso": 502,
+      "status": {
+        "hp": 50,
+        "ataque": 105,
+        "defesa": 79,
+        "ataque-especial": 35,
+        "defesa-especial": 110,
+        "velocidade": 76
+      }
+    },
+    {
+      "id": 108,
+      "nome": "lickitung",
+      "tipos": ["normal"],
+      "habilidades": ["próprio-tempo", "obstinação", "nuvem-de-pó"],
+      "altura": 12,
+      "peso": 655,
+      "status": {
+        "hp": 90,
+        "ataque": 55,
+        "defesa": 75,
+        "ataque-especial": 60,
+        "defesa-especial": 75,
+        "velocidade": 30
+      }
+    },
+    {
+      "id": 109,
+      "nome": "koffing",
+      "tipos": ["veneno"],
+      "habilidades": ["levitação"],
+      "altura": 6,
+      "peso": 10,
+      "status": {
+        "hp": 40,
+        "ataque": 65,
+        "defesa": 95,
+        "ataque-especial": 60,
+        "defesa-especial": 45,
+        "velocidade": 35
+      }
+    },
+    {
+      "id": 110,
+      "nome": "weezing",
+      "tipos": ["veneno"],
+      "habilidades": ["levitação"],
+      "altura": 12,
+      "peso": 95,
+      "status": {
+        "hp": 65,
+        "ataque": 90,
+        "defesa": 120,
+        "ataque-especial": 85,
+        "defesa-especial": 70,
+        "velocidade": 60
+      }
+    },
+    {
+      "id": 111,
+      "nome": "rhyhorn",
+      "tipos": ["terra", "pedra"],
+      "habilidades": ["cabeça-rocha", "corpo-forte", "temperatura"],
+      "altura": 10,
+      "peso": 1150,
+      "status": {
+        "hp": 80,
+        "ataque": 85,
+        "defesa": 95,
+        "ataque-especial": 30,
+        "defesa-especial": 30,
+        "velocidade": 25
+      }
+    },
+    {
+      "id": 112,
+      "nome": "rhydon",
+      "tipos": ["terra", "pedra"],
+      "habilidades": ["cabeça-rocha", "corpo-forte", "temperatura"],
+      "altura": 19,
+      "peso": 1200,
+      "status": {
+        "hp": 105,
+        "ataque": 130,
+        "defesa": 120,
+        "ataque-especial": 45,
+        "defesa-especial": 45,
+        "velocidade": 40
+      }
+    },
+    {
+      "id": 113,
+      "nome": "chansey",
+      "tipos": ["normal"],
+      "habilidades": ["cura-natural", "serena", "amizade"],
+      "altura": 11,
+      "peso": 346,
+      "status": {
+        "hp": 250,
+        "ataque": 5,
+        "defesa": 5,
+        "ataque-especial": 35,
+        "defesa-especial": 105,
+        "velocidade": 50
+      }
+    },
+    {
+      "id": 114,
+      "nome": "tangela",
+      "tipos": ["planta"],
+      "habilidades": ["clorofila", "folha-guarda", "regeneração"],
+      "altura": 10,
+      "peso": 350,
+      "status": {
+        "hp": 65,
+        "ataque": 55,
+        "defesa": 115,
+        "ataque-especial": 100,
+        "defesa-especial": 40,
+        "velocidade": 60
+      }
+    },
+    {
+      "id": 115,
+      "nome": "kangaskhan",
+      "tipos": ["normal"],
+      "habilidades": ["pressão-early", "espírito-vital", "audácia"],
+      "altura": 22,
+      "peso": 800,
+      "status": {
+        "hp": 105,
+        "ataque": 95,
+        "defesa": 80,
+        "ataque-especial": 40,
+        "defesa-especial": 80,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 116,
+      "nome": "horsea",
+      "tipos": ["água"],
+      "habilidades": ["nadador-veloz", "atirador", "humidade"],
+      "altura": 4,
+      "peso": 80,
+      "status": {
+        "hp": 30,
+        "ataque": 40,
+        "defesa": 70,
+        "ataque-especial": 70,
+        "defesa-especial": 25,
+        "velocidade": 60
+      }
+    },
+    {
+      "id": 117,
+      "nome": "seadra",
+      "tipos": ["água"],
+      "habilidades": ["veneno-ponta", "atirador", "humidade"],
+      "altura": 12,
+      "peso": 250,
+      "status": {
+        "hp": 55,
+        "ataque": 65,
+        "defesa": 95,
+        "ataque-especial": 95,
+        "defesa-especial": 45,
+        "velocidade": 85
+      }
+    },
+    {
+      "id": 118,
+      "nome": "goldeen",
+      "tipos": ["água"],
+      "habilidades": ["nadador-veloz", "hidratação", "espinho-de-ferro"],
+      "altura": 6,
+      "peso": 150,
+      "status": {
+        "hp": 45,
+        "ataque": 67,
+        "defesa": 60,
+        "ataque-especial": 35,
+        "defesa-especial": 50,
+        "velocidade": 63
+      }
+    },
+    {
+      "id": 119,
+      "nome": "seaking",
+      "tipos": ["água"],
+      "habilidades": ["nadador-veloz", "hidratação", "espinho-de-ferro"],
+      "altura": 13,
+      "peso": 390,
+      "status": {
+        "hp": 80,
+        "ataque": 92,
+        "defesa": 65,
+        "ataque-especial": 65,
+        "defesa-especial": 80,
+        "velocidade": 68
+      }
+    },
+    {
+      "id": 120,
+      "nome": "staryu",
+      "tipos": ["água"],
+      "habilidades": ["cura-natural", "brilho-natural", "analítico"],
+      "altura": 8,
+      "peso": 345,
+      "status": {
+        "hp": 30,
+        "ataque": 45,
+        "defesa": 55,
+        "ataque-especial": 70,
+        "defesa-especial": 55,
+        "velocidade": 85
+      }
+    },
+    {
+      "id": 121,
+      "nome": "starmie",
+      "tipos": ["água", "psíquico"],
+      "habilidades": ["cura-natural", "brilho-natural", "analítico"],
+      "altura": 11,
+      "peso": 800,
+      "status": {
+        "hp": 60,
+        "ataque": 75,
+        "defesa": 85,
+        "ataque-especial": 100,
+        "defesa-especial": 85,
+        "velocidade": 115
+      }
+    },
+    {
+      "id": 122,
+      "nome": "mr-mime",
+      "tipos": ["psíquico", "fada"],
+      "habilidades": ["isolamento", "filtro", "técnico"],
+      "altura": 13,
+      "peso": 545,
+      "status": {
+        "hp": 40,
+        "ataque": 45,
+        "defesa": 65,
+        "ataque-especial": 100,
+        "defesa-especial": 120,
+        "velocidade": 90
+      }
+    },
+    {
+      "id": 123,
+      "nome": "scyther",
+      "tipos": ["inseto", "voador"],
+      "habilidades": ["enxame", "técnico", "audácia"],
+      "altura": 15,
+      "peso": 560,
+      "status": {
+        "hp": 70,
+        "ataque": 110,
+        "defesa": 80,
+        "ataque-especial": 55,
+        "defesa-especial": 80,
+        "velocidade": 105
+      }
+    },
+    {
+      "id": 124,
+      "nome": "jynx",
+      "tipos": ["gelo", "psíquico"],
+      "habilidades": ["desatenção", "pressão", "pé-frio"],
+      "altura": 14,
+      "peso": 406,
+      "status": {
+        "hp": 65,
+        "ataque": 50,
+        "defesa": 35,
+        "ataque-especial": 115,
+        "defesa-especial": 95,
+        "velocidade": 95
+      }
+    },
+    {
+      "id": 125,
+      "nome": "electabuzz",
+      "tipos": ["elétrico"],
+      "habilidades": ["estático", "espírito-vital"],
+      "altura": 11,
+      "peso": 300,
+      "status": {
+        "hp": 65,
+        "ataque": 83,
+        "defesa": 57,
+        "ataque-especial": 95,
+        "defesa-especial": 85,
+        "velocidade": 105
+      }
+    },
+    {
+      "id": 126,
+      "nome": "magmar",
+      "tipos": ["fogo"],
+      "habilidades": ["chama-corpo", "espírito-vital"],
+      "altura": 13,
+      "peso": 445,
+      "status": {
+        "hp": 65,
+        "ataque": 95,
+        "defesa": 57,
+        "ataque-especial": 100,
+        "defesa-especial": 85,
+        "velocidade": 93
+      }
+    },
+    {
+      "id": 127,
+      "nome": "pinsir",
+      "tipos": ["inseto"],
+      "habilidades": ["hipercortador", "espírito-vital", "audácia"],
+      "altura": 15,
+      "peso": 550,
+      "status": {
+        "hp": 65,
+        "ataque": 125,
+        "defesa": 100,
+        "ataque-especial": 55,
+        "defesa-especial": 70,
+        "velocidade": 85
+      }
+    },
+    {
+      "id": 128,
+      "nome": "tauros",
+      "tipos": ["normal"],
+      "habilidades": ["intimidação", "espírito-vital", "fúria"],
+      "altura": 14,
+      "peso": 884,
+      "status": {
+        "hp": 75,
+        "ataque": 100,
+        "defesa": 95,
+        "ataque-especial": 40,
+        "defesa-especial": 70,
+        "velocidade": 110
+      }
+    },
+    {
+      "id": 129,
+      "nome": "magikarp",
+      "tipos": ["água"],
+      "habilidades": ["nadador-veloz"],
+      "altura": 9,
+      "peso": 100,
+      "status": {
+        "hp": 20,
+        "ataque": 10,
+        "defesa": 55,
+        "ataque-especial": 15,
+        "defesa-especial": 20,
+        "velocidade": 80
+      }
+    },
+    {
+      "id": 130,
+      "nome": "gyarados",
+      "tipos": ["água", "voador"],
+      "habilidades": ["intimidação", "espírito-vital"],
+      "altura": 65,
+      "peso": 2350,
+      "status": {
+        "hp": 95,
+        "ataque": 125,
+        "defesa": 79,
+        "ataque-especial": 60,
+        "defesa-especial": 100,
+        "velocidade": 81
+      }
+    },
+    {
+      "id": 131,
+      "nome": "lapras",
+      "tipos": ["água", "gelo"],
+      "habilidades": ["absorver-água", "casca-tanha", "hidratação"],
+      "altura": 25,
+      "peso": 2200,
+      "status": {
+        "hp": 130,
+        "ataque": 85,
+        "defesa": 80,
+        "ataque-especial": 85,
+        "defesa-especial": 95,
+        "velocidade": 60
+      }
+    },
+    {
+      "id": 132,
+      "nome": "ditto",
+      "tipos": ["normal"],
+      "habilidades": ["flexibilidade"],
+      "altura": 3,
+      "peso": 40,
+      "status": {
+        "hp": 48,
+        "ataque": 48,
+        "defesa": 48,
+        "ataque-especial": 48,
+        "defesa-especial": 48,
+        "velocidade": 48
+      }
+    },
+    {
+      "id": 133,
+      "nome": "eevee",
+      "tipos": ["normal"],
+      "habilidades": ["fuga", "adaptabilidade", "anticipação"],
+      "altura": 3,
+      "peso": 65,
+      "status": {
+        "hp": 55,
+        "ataque": 55,
+        "defesa": 50,
+        "ataque-especial": 45,
+        "defesa-especial": 65,
+        "velocidade": 55
+      }
+    },
+    {
+      "id": 134,
+      "nome": "vaporeon",
+      "tipos": ["água"],
+      "habilidades": ["absorver-água", "hidratação"],
+      "altura": 10,
+      "peso": 290,
+      "status": {
+        "hp": 130,
+        "ataque": 65,
+        "defesa": 60,
+        "ataque-especial": 110,
+        "defesa-especial": 95,
+        "velocidade": 65
+      }
+    },
+    {
+      "id": 135,
+      "nome": "jolteon",
+      "tipos": ["elétrico"],
+      "habilidades": ["absorver-choque", "rápido"],
+      "altura": 8,
+      "peso": 245,
+      "status": {
+        "hp": 65,
+        "ataque": 65,
+        "defesa": 60,
+        "ataque-especial": 110,
+        "defesa-especial": 95,
+        "velocidade": 130
+      }
+    }
+]
